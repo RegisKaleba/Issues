@@ -1,0 +1,879 @@
+body {
+
+    background: #FFFFFF;
+    font-family: Raleway;
+
+}
+
+.header {
+
+    margin-bottom: 75px;
+}
+
+.content {
+
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.blips {
+
+    padding: 25px 25px 25px 25px;
+
+}
+
+.blips:hover {
+    
+    border-top: solid #0065FC;
+    
+  }
+
+.link:hover {
+
+    color: #0065FC;
+
+}
+
+.Logo {
+    padding-top: 25px;
+    border-top: solid #ffffff;
+    
+
+}
+
+.link {
+
+    
+    color: #000000;
+    text-decoration: none;
+    font-size: bold;    
+
+}
+
+.iconResarch {
+
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    border-radius: 15px 0 0 15px;
+    
+    
+
+}
+
+.buttonResearch {
+ 
+    background-color: #0065FC;
+    color: #FFFFFF;
+    border-radius: 0 15px 15px 0 ;
+    border: none;
+    width: 132px;
+
+}
+
+.researchBar {
+    padding-left: 10px;
+    height: 50px;
+    border-top: solid#F2F2F2;
+    border-bottom: solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+
+}
+
+.Test {
+
+    display: block;
+    margin-top: 25px;
+}
+
+.Test1 {
+
+    display: block;
+    margin-top: -10px;
+ 
+}
+
+.Test3 {
+
+    display: block;
+    margin: 20% 0 0 0;
+
+}
+
+.blue {
+
+    color: #0065FC;
+}
+
+.grey {
+
+    color: #F2F2F2;
+
+}
+
+.white {
+
+    color: #FFFFFF;
+
+}
+
+.bold {
+
+    font-weight: bold;
+}
+
+.accomodation_h3 {
+
+    padding-left: 3%;
+    padding-bottom: 1%;
+
+}
+
+h4 {
+
+    font-weight: bold;
+}
+
+h5 {
+
+    font-weight: 900;
+}
+
+.grow  { 
+    transition: all .2s ease-in-out; }
+
+.grow:hover { 
+    transform: scale(1.05); }
+
+.filter {
+
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-left: 60px;
+
+
+}
+
+.filter:hover{
+
+    background-color: #DEEBFF;
+    border: 2px solid #DEEBFF;
+
+}
+
+.filterIcon {
+
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    border: solid;
+    border-color: #DEEBFF;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25px;
+
+}
+
+.filterIcon2 {
+
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    border: solid 1px;
+    border-color: #D9D9D9;
+    background-color: #ffffff;
+    color: #0065FC;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+
+.marginLeft {
+
+    margin-left: 10px;
+
+}
+
+.textFilter {
+
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.filterbar {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.filterTitle {
+    margin-top: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* Ici les direction FB*/
+
+.inline {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineLogoNav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inline500 {
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+}
+
+.inlineFilter {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.inlineActivities {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inlineFilters {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineDuo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inlineResearchBar {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.inlineAccomodationPopular {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inline1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.inline2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.inlineFooter {
+
+
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.columnPopular {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+/* Sections et leur contenu*/
+
+
+
+.accomodationBackground {
+
+    /* Img en backgroud ?*/
+    
+    width: 66%;
+    height: 600px;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #F2F2F2;
+    margin-right: 15px;
+}
+
+/*Partie "Poupulaire" */
+
+
+.cardsPopular {
+
+    display: flex;
+    flex-direction: inline;
+    width: 90%;
+    Height: 120px;
+    border-radius: 20px; 
+    border: 5px solid #FFFFFF;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #0000002e;
+   
+}
+
+
+
+.cardImagePopular {
+
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+
+}
+
+
+.cardDescriptionPopular {
+
+    padding-left: 2%;
+    margin-top: -6%;
+
+
+}
+
+.popularBackground {
+
+    width: 30%;
+    height: 600px;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #F2F2F2;
+    margin-left: 15px;
+    
+
+}
+
+/* Activités */
+
+
+.activitiesBackground {
+
+    height: 500px;
+    border-radius: 25px;
+    background: #b14848;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cardsActivities {
+
+    display: flex;
+    flex-direction: column;
+    Width: 250px;
+    Height: 540px;
+    
+    box-shadow: 0 0 20px #0000002e;
+    background: #7a3b3b;
+
+}
+
+
+
+.cardImageActivities {
+
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+
+
+
+
+.cardDescriptionActivities {
+
+ 
+    font-size: 65%;
+    padding-left: 16px;
+    padding-right:16px;
+    margin-top: -5px;
+}
+
+
+/* Partie hebergement*/
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    Width: 28%;
+    Height: 190px;
+    border-radius: 20px; 
+    border: 5px solid #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px #0000002e;
+
+}
+
+.cardImage{
+
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.cardDescription {
+
+ 
+    font-size: 65%;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-bottom: 500px;
+    margin-top: -5px;
+}
+
+.star  {
+
+    font-size: larger;
+}
+
+
+/* Bas de page*/
+
+.footerBooki {
+
+   
+    background-color: #F2F2F2;
+    
+
+}
+
+
+
+
+
+/* Test Media Queries*/
+
+
+ /*
+@media screen and (max-width: 1700px) {
+    p {
+        color: red;
+        background-color: black;
+    }
+
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .content {
+
+        width: 1200px;
+        margin: 0 auto;
+
+   }
+    
+    .inlineAccomodationPopular {
+        
+        flex-direction: column-reverse;;
+
+
+    }
+    .columnPopular {
+        
+        flex-direction: row;
+
+    }
+    .popularBackground {
+
+        width:auto;
+        height: 250px;
+        margin-left: 0%;
+        margin-bottom: 15px;
+    
+    }
+
+    .cardsPopular {
+
+        width: 30%;
+        height: 150px;
+
+    }
+
+    .accomodationBackground {
+
+        width: auto;
+        margin-right: 0%;
+        margin-top: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+     
+    }
+
+    
+    
+
+}
+
+@media screen and (max-width: 1220px) {
+
+    .content {
+
+        width: 1000px;
+        margin: 0 auto;
+
+   }
+}
+
+*/
+
+@media screen and (max-width: 992px) {
+
+    .content {
+
+        width: 926px;
+        margin: 0 auto;
+
+    }
+
+    .filter {
+
+        margin-left: 30px;
+
+    }
+
+    .columnPopular {
+
+    flex-direction: row;    
+
+}
+
+    .accomodationBackground {
+
+        width: auto;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+ 
+}
+
+    .popularBackground {
+
+        width:auto;
+        height: 250px;
+        margin-left: 0%;
+        margin-bottom: 15px;
+    
+    }
+
+
+    .inlineAccomodationPopular {
+        
+        flex-direction: column;
+
+
+}
+    .cards {
+
+        width: 30%;
+
+    }
+
+    .cardsPopular {
+
+        width: 30%;
+        height: 135px;
+
+    }
+
+    .cardDescriptionPopular {
+
+        margin-top: 0%;
+    }
+
+    .Test {
+        margin-top: 0px;
+
+    }
+
+    .Test2 {
+
+        margin-top: 35px;
+    }
+
+    .Test3 {
+
+        margin-top: 55px;
+    }
+
+    .testCard {
+
+        width: 50px;
+        height: 1000%;
+        background: #307939;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        width: 768px;
+        margin: 0 auto;
+
+    }
+
+    .inlineLogoNav {
+
+        flex-direction: column;
+    }
+
+    .Logo {
+        
+       
+        width: 125px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .inlineFilter {
+
+        flex-direction: column;
+    }
+
+    .filterTitle {
+
+        justify-content: flex-start;
+    }
+
+    .inlineFilters {
+
+        flex-direction: column;
+    }
+
+    .inlineDuo {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+
+    .filter {
+
+        width: 200px;
+        margin-left: 0%;
+    }
+
+    
+
+    .filterEconomyRomantic {
+
+        margin-right: 30px;
+    }
+
+    .filterFamily {
+
+        margin-right: 70px;
+    }
+
+    .inlineAccomodationPopular {
+        
+        flex-direction: column-reverse;
+
+
+    }
+
+    .popularBackground {
+
+        height: auto;
+
+    }
+
+    .columnPopular {
+
+        flex-direction: column;
+    }
+
+    .Test3 {
+
+        margin-top: 35px;
+    }
+
+
+    .popularBackground {
+
+        height: auto;
+    }
+    .cardsPopular {
+
+        width: 80%;
+        
+    }
+
+    .inlineActivities {
+
+        flex-direction: column;
+        
+
+    }
+
+    .activitiesBackground {
+        background: #307939;
+        width: auto;
+        height: auto;
+
+    }
+
+    
+
+    .testCard {
+
+        width: 500%;
+        background: #307939;
+
+    }
+
+
+    
+
+}
+
+/* Windows live serveur - VSC
+
+chat GPT - IA code
+
+pseudo class first item
+
+éliminer largeur - marge 0 auto
+
+cascading Style sheet
+
+un bloc Star - Sprite ? CSS ---> Bonus
+
+Fixer à 1400px en largeur - margin 0 auto
+
+Ne pas fixer Height - 
+
+*/
+
+/* Bootstrap - CA
+
+Espacement colone
+
+MJ
+
+Espacement titre-Blocs
+
+Herbergement marges
+
+.growhover --> Transition
+
+--> Semaine 3 : Responsive (Actuel)
+
+   --> 23/01 ( /!\La clef, le 1400 du content ? --> Oui !)
+   --> 24/01 (Teste Popular Card en display block !)
+
+   --> Notions Viewport
+   --> Kraken et GitGUI
+    --> Passer cpde au validateur
+
+*/
+
+
+/* TEST TEST TEST*/
+
+
+.testCard {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: 400px;
+        border-radius: 20px; 
+        background: #913f3f;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 0 20px #0000002e;
+       
+    
+}
+
+
+
+.columnTest {
+
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
